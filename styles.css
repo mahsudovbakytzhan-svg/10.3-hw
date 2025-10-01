@@ -1,0 +1,41 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  margin: 0;
+  height: 100vh;
+  font-family: Arial,sans-serif;
+  background-image: url(i.jpeg);
+  background-size: cover;
+}
+.conteiner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.766);
+  background-color: rgba(0, 0, 0, 0.414);
+  width: 400px;
+  padding: 30px;
+  text-align: center;
+  background-image:url(1_luna.jpg);
+  background-size:cover ;
+}
+h2{
+  color: #ffffff;
+}
+.form{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  border-radius: 8px;
+}
+
+.form input{
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
