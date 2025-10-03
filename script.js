@@ -47,10 +47,21 @@ localStorage.setItem ("user",JSON.stringify(user));
 const userNEW = JSON.parse(localStorage.getItem("user"))
 console.log(userNEW) 
 // 5 tapsyrma
-if (localStorage.getItem("user")){
-  console.log("Данные о пользователе найдены")
+
+
+
+
+const user2 = {
+  name:"Bakytzhan",
+  age: 21,
+  
+}
+  localStorage.setItem("user2",JSON.stringify(user2))
+  const newUSER2 =JSON.parse(localStorage.getItem("user2"))
+  if (localStorage.getItem("user2")){
+  console.log("Данные о пользователе найдены +")
 }else{
-  console.log('Данные о пользователе не найдены')
+  console.log('Данные о пользователе не найдены -')
 }
 //6tapsyrma
 localStorage.clear()
@@ -83,7 +94,7 @@ console.log(" сакталды")
 }
 
 
-// осы такырып ты дурыс тусынбедым 
+
 
 
 
